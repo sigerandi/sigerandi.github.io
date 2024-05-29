@@ -1,84 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!––metadatos, describe el sitio––>
-        <title>CV de Erandi Soublett</title>
-        <meta charset="ütf-8">
-        <!––indica los caracteres especiales del idoma––>
-            <meta name="description" content="Erandi es una desarroladora web">
-            <!––define un resumen del sitio––>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.avif" type="image/x-icon">
+    <meta name="description" content="Pagina de registro de un club de plantas">
+    <meta name="keywords" content="HTML, Basico, Curso, UNAM, ICO">
+    <meta name="author" content="Erandi Soublett">
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>ESM Club de plantas</title>
 </head>
 
-<body style="font-family: Arial, Helvetica, sans-serif;margin: 0%;">
-    <!––fotos,informacion central etc––>
-        <header style="background-color: #b2c730; color: rgba(3, 3, 3, 0.799);text-align: center;padding:16px;">
-            <h1 style="display:inline-block; width: 400px;font-weight: 700 ;">CV de Erandi Soublett</h1>
-            <p style="display:inline-block; width: 400px;font-weight: 200;;">Estudiante</p>
-        </header>
-        <div style="background-color:#36b3c9;color: black;text-align: center;padding:10px ;">
-            <!––arupar elementos para que en css se limiten las modificaciones de diseño––>
-                Actualmente estudiante
-                <!––especifica encabezados dentro de la pag––>
-        </div>
-        <section>
-            <div style="width: 960px;margin-right: auto;margin-left: auto;">
-               
-                <div>
-                    <div style="display:inline-block; width: 68%;vertical-align:top ;">
-                        <h3 style="font-size: 36px; font-weight: 700;">Education</h3>
-                        <div>
+<body id="cuerpo">
+   
+
+    <header>
+        <div >
+        <img class="logo" src="./img/logo.avif" alt="Logo">
+    </div>
     
-                            <dl>
-                                <dt style="font-size: 22px;text-transform:uppercase;margin-bottom: 12px;margin-top: 36px;">
-                                    UNAM</dt>
-                                <dd style="font-size: 22px;text-transform: uppercase;margin-bottom: 12px;margin-top: 36px;">
-                                    2021-2026. Facultad de Estudios Superiores Aragon</dd>
-                                <dt style="font-size: 22px;text-transform: uppercase;margin-bottom: 12px;margin-top: 36px;">
-                                    TOEFL</dt>
-                                <dd>Late 2015.640/677 score.</dd>
-                            </dl>
-                        </div>
+        <nav>
+<ul >
+            <a href="inicio.html">  <li> Inicio</li> </a>
+            <a href="inicio.html"> <li>Sobre nostros</li></a>
+            <a href="loading.html"> <li>Iniciar sesión</li> </a>
+            <a href="#contacto">  <li>Contacto</li>  </a>
+</ul>
+        </nav>
 
-                    </div>
-                  <div style="display:inline-block; width:30%; margin-top: 20px ;">
-                    <img src="img\20220112_142834.jpg" width="300">
-                </div>
-                    
-                   
-                </div>
+    </header>
+    <div class="presentacion">
+        <h1>QUIENES SOMOS </h1>
+        <p>Somos un club que busca unir aquellas personas que amen las plantas y quieran compartit sus conocimientos
+</p>
+      
+    </div>
 
+    <div class="container-fluid">
+       
 
-                <div style="margin-top: 70px;">
-                    <h3 style="font-size: 36px; font-weight: 700;">Experience</h3>
-                    <div>
+        <div class="caja">
+            <h2>¿Porqué tener plantas en tu hogar? </h2>
+            <p>Tener plantas en el hogar puede proporcionar una amplia gama de beneficios para la salud y el bienestar, así como agregar belleza y estilo a cualquier espacio. </p>
+            <p>Las plantas son unas grandes aliadas para combatir el estrés. Según un estudio publicado en la revista científica Journal of Health Pshychology, la jardinería reduce la producción de cortisol, la hormona que segrega el cerebro como respuesta a la tensión.</p>
+            <p>Además, la jardinería es una práctica muy calmada y meticulosa, por lo que es ideal para evadirse y despejar la mente. Se trata de una afición que aporta tranquilidad y un excelente entretenimiento.</p>
+            <p>Por otro lado, las plantas mejoran el estado anímico, en parte por lo agradables que resultan visualmente y también por la satisfacción que produce verlas crecer y florecer gracias a los cuidados.</p>
+            <img src="./img/clubdeplantas.jpg" width="600" height="400" alt="">
+        </div>
 
-                        <dl>
-                            <dt style="font-size: 22px;text-transform:uppercase;margin-bottom: 12px;margin-top: 36px;">
-                                UNAM</dt>
-                            <dd>2021-2026. Facultad de Estudios Superiores Aragon</dd>
-                            <dt style="font-size: 22px;text-transform: uppercase;margin-bottom: 12px;margin-top: 36px;"">TOEFL</dt>
-                        <dd>LAte 2015 640/677 score</dd>
-                    </dl>
-                    </div>
-            </div>
-            <div style=" margin-top: 50px;">
-                                <h3 style="display:inline-block; width: 400px;font-weight: 700 ;">Other</h3>
-                                <ul style="margin-top: 12px;padding: 0px;">
-                                    <li style="margin-top: 16px;">Over 35 on line curses</li>
+        <div class="caja">
+            <h2>Cuidados</h2>
+           
+            <ul>
+                <li>Cambio de maceta</li>
+                <p>Cuando las raíces de tus plantas de interior llenen la maceta (lo que detiene la floración), se hace necesario trasplantarlas a una maceta más grande. Recuerda que es importante utilizar una buena mezcla de sustrato especial, mezclándola con un poco de Arena de Lampa.</p>
+                <p> Si el ambiente interiores muy seco, agrégale una porción de turba que hará que el sustrato se mantenga más húmedo y evitará que las plantas se sequen. Evite realizar cambios cuando las plantas estén en pleno desarrollo, para no dañar brotes y flores.</p>
+                <li>Fertilización </li>
+                <p>Es una labor muy importante, puesto que las plantas de interior se estresan con facilidad, y por ello debemos mantenerlas con todos los elementos o nutrientes necesarios para desarrollarse bien. Para ello aconsejamos aplicar cada 30 días el Fertilizante Orgánico Phyllum en dosis de 2,5 cc por 1 litro de agua para aplicarlo a todo el follaje.</p>
+                <li>Riego</li>
+                <p>No existe una regla en cuanto al periodo del riego, ya que éste varía según el tipo de tierra, material del macetero o jardinera, tipo de planta y la temperatura del lugar.
+                    Lo ideal es introducir el dedo en la tierra antes de regar para sentir la humedad cercana a las raíces. Esto nos ayudará a ver si efectivamente nuestra planta necesita o no riego.</p>
+                   <p> Es muy importante saber que SIEMPRE las macetas deben tener un “orificio” abajo para que el agua escurra y evitemos que las raíces se pudran.</p>
                                     
-                                </ul>
-                    </div>
-                    <div style=" margin-top: 50px;">
-                        <h3 style="display:inline-block; width: 400px;font-weight: 700 ;">Social account</h3>
-                        <ul style="margin-top: 12px;padding: 0px;">
-                            <li style="margin-top: 16px;"> 
-                                <a href="https://github.com/sigerandi" target="_blank">GitHub</a>
-                               </li>
-                            <li style="margin-top: 16px;"> </li>
-                            <li style="margin-top: 16px;"> </li>
-                </div>
-        </section>
+            </ul>
+            
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2> Plantas para el hogar </h2>
+
+            </div>
+            <div  class=" col-md-4">
+                <img src="./img/logomaceta.png" alt="">
+                <i class="fa-solid fa-leaf"></i>
+
+
+            </div>
+          <div class="col">
+            Columna
+          </div>
+          <div class="col">
+            Columna
+          </div>
+          <div class="col">
+            Columna
+          </div>
+        </div>
+      </div>
+
+    <div id="contacto">
+       
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d395.678875064204!2d-99.14878495307202!3d19.35385912601332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffcc41d59745%3A0x41d9e0c5f0ef0d0c!2s20%20de%20Agosto%2023%2C%20San%20Diego%20Churubusco%2C%20Coyoac%C3%A1n%2C%2004120%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1716253039489!5m2!1ses!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Y1jTRsBRh3g?si=kGQu9TyHI8V9VMe1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <footer>
+        <p> Página hecha con propositos educativos Esta es una página hecha como ejercicoo de clase </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

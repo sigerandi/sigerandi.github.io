@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap');
+
+
+body {
+    width: inherit;
+    height: inherit;
+ 
+   
+}
+#cuerpo{
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo{
+    background-color: #788e4d;
+}
+header {
+    background-color: #aed58176;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header a {
+    text-decoration: none;
+}
+header li {
+    margin: 10px;
+    font-size: 35px;
+    color:   #788e4d;
+    font-family: "Playfair Display", serif;
+}
+
+header a :hover{
+    color: #694908;
+    
+    text-decoration: underline;
+}
+
+.logo {
+    width: 100px;
+    height: full;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+
+}
+
+h2 {
+    font-size: 34px;
+    color: #694908;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.presentacion h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.presentacion p {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+
+    background-color: #e5dba28a;
+  
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+
+    background-color: #e5dba28a;
+    
+}
+.container{
+    background-color: #aed58176;
+}
+
+.container img{
+    width: 50px;
+    height: auto;
+}
+.caja {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.caja img {
+    width: auto;
+    height: 400px;
+
+}
+.caja li{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.caja p {
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+#contacto{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    
+
+}
+#contacto inframe{
+    padding: 10px;
+    margin: 10px;
+}
+section {
+    width: 400px;
+    background-color: #788e4d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: Calibri;
+    border-radius: 25px;
+    box-shadow: 7px 13px 37px #000;
+    color: #fbf8f8;
+  }
+  section h3{
+    font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  color: #efe7e4;
+  }
+  section p{
+    height: 40px;
+  text-align: center;
+  font-size: 18px;
+    font-family: "Playfair Display", serif;
+  }
+  .controls {
+    width: 100%;
+    background-color: #e5f8d6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #5d6e3b;
+    font-family: Calibri;
+    font-size: 17px;
+    color: #424242;
+  }
+  #loading{
+    width: inherit;
+  height: inherit;
+  background-image: url("img/arena.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  }
+  label {
+    font-size: 19px;
+    font-family: "Playfair Display", serif;
+  }
+  .botons {
+    width: 100%;
+    background-color: #5d6e3b;
+    border: none;
+    padding: 12px;
+    color: #aed581;
+    margin: 16px 0;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+  }
+  .botons:hover {
+    background-color: #aed581;
+    color: #5d6e3b;
+  }
